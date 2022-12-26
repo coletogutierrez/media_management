@@ -1,0 +1,4 @@
+include LICENSE
+recursive-include media/templates *
+recursive-include docs *
+

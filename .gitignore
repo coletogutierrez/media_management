@@ -1,0 +1,6 @@
+env/
+django-media/dist/
+django-media/django_media.egg-info/
+mediamanagementproject/media/
+mediamanagementproject/home/__pycache__/
+mediamanagementproject/mediamanagementproject/__pycache__/

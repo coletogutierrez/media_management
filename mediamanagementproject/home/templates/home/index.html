@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+
+{% block title %}Index{% endblock %}
+
+
+
+
+
+{% block content %}
+
+
+
+
+
+{{ block.super }}
+
+
+<p>&nbsp;</p>
+
+<p>API MAIN URL:</p>
+<p><a href = "http://127.0.0.1:8000/api/v1/">http://127.0.0.1:8000/api/v1/</a></p>
+
+<p>&nbsp;</p>
+
+<p>API URLS:</p>
+<p><a href = "http://127.0.0.1:8000/api/v1/artists/?token=0f600cb1b626c5a4b41c3a4e30fc5b0f09e7085f">http://127.0.0.1:8000/api/v1/artists/?token=0f600cb1b626c5a4b41c3a4e30fc5b0f09e7085f</a></p>
+<p><a href = "http://127.0.0.1:8000/api/v1/albums_with_filtering/?token=0f600cb1b626c5a4b41c3a4e30fc5b0f09e7085f&artist=1">http://127.0.0.1:8000/api/v1/albums_with_filtering/?token=0f600cb1b626c5a4b41c3a4e30fc5b0f09e7085f&artist=1</a></p>
+<p><a href = "http://127.0.0.1:8000/api/v1/albums_with_tracks/?token=0f600cb1b626c5a4b41c3a4e30fc5b0f09e7085f">http://127.0.0.1:8000/api/v1/albums_with_tracks/?token=0f600cb1b626c5a4b41c3a4e30fc5b0f09e7085f</a></p>
+<p><a href = "http://127.0.0.1:8000/api/v1/tracks_with_filtering/?token=0f600cb1b626c5a4b41c3a4e30fc5b0f09e7085f&album=3">http://127.0.0.1:8000/api/v1/tracks_with_filtering/?token=0f600cb1b626c5a4b41c3a4e30fc5b0f09e7085f&album=3</a></p>
+<p><a href = "http://127.0.0.1:8000/api/v1/albums_with_more_data/?token=0f600cb1b626c5a4b41c3a4e30fc5b0f09e7085f">http://127.0.0.1:8000/api/v1/albums_with_more_data/?token=0f600cb1b626c5a4b41c3a4e30fc5b0f09e7085f</a></p>
+
+<p>&nbsp;</p>
+
+<p>DOCUMENTATION:</p>
+<p><a href = "http://127.0.0.1:8000/api/schema/swagger-ui/">http://127.0.0.1:8000/api/schema/swagger-ui/</a></p>
+<p><a href = "http://127.0.0.1:8000/api/schema/redoc/">http://127.0.0.1:8000/api/schema/redoc/</a></p>
+
+
+
+
+{% endblock %}
